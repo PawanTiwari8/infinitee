@@ -11,9 +11,9 @@ import image9 from "../assets/profile-pictures/fb.png"
 import image10 from "../assets/profile-pictures/google.png"
 import image11 from "../assets/profile-pictures/meta.png"
 
-const SkillCrouser = () => {
+const SkillCrouser = ({id}) => {
   return (
-    <div>
+    <div  id={id}>
     <div className="text-center">
     {/* <span className="bg-neutral-900 text-white rounded-full h-6 text-sm font-large px-2 py-1 uppercase">
       Courses

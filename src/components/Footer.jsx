@@ -1,7 +1,9 @@
 import logol from '../assets/profile-pictures/logol.png'
-const Footer = () => {
+import semrush from '../assets/profile-pictures/semrushlogo.png'
+import metacertified from '../assets/profile-pictures/metacertified.png'
+const Footer = ({id}) => {
   return (
-    <div class="mt-24 border-t-2  border-neutral-800 pt-9">
+    <div  id={id} class="mt-24 border-t-2  border-neutral-800 pt-9">
   <div class="mx-auto w-full max-w-[1166px] px-4 xl:px-0 ">
     <div class="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
       <div class="md:w-[316px]">
@@ -74,28 +76,22 @@ const Footer = () => {
                 href="/">Home</a></li>
             <li class="mt-[15px]"><a
                 class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                href="/our-tutors">News</a></li>
+                href="/our-tutors">Courses</a></li>
             <li class="mt-[15px]"><a
                 class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
                 href="/become-a-tutor">Contact</a></li>
-            <li class="mt-[15px]"><a
-                class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                href="/plans-and-pricing">Plans and pricing</a></li>
-            <li class="mt-[15px]"><a
-                class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                href="/terms-and-conditions">Terms and conditions</a></li>
-            <li class="mt-[15px]"><a
-                class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                href="/privacy-policy">Privcay policy</a></li>
+           
           </ul>
         </div>
         <div class="mt-4 flex flex-col gap-4 ">
           <p class="text-deutziawhite font-inter text-[18px] font-medium">Recognized by</p>
           <div class="flex gap-4 sm:flex-col">
             <a target="_blank"
-              href="#"><img alt="facebook icon" loading="lazy" width="168" height="50" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/google-store.svg" /></a><a
+              href="#"><img alt="Google Analytics" loading="lazy" width="168" height="50" decoding="async" data-nimg="1"  src=	"https://i0.wp.com/consultyasser.com/wp-content/uploads/2020/02/GA-certified.png?w=500&ssl=1" /></a><a
               target="_blank"
-              href="#"><img alt="facebook icon" loading="lazy" width="168" height="50" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/apple-store.svg" /></a>
+              href="#"><img alt="" loading="lazy" width="168" height="50" decoding="async" data-nimg="1"  src={metacertified} /></a><a 
+              target="_blank"
+              href="#"><img alt="Google Analytics" loading="lazy" width="92" height="24" decoding="async" data-nimg="1" className=' ml-0 lg:ml-9 ' src={semrush} /></a>
           </div>
         </div>
       </div>
@@ -103,7 +99,7 @@ const Footer = () => {
     <hr class="mt-[30px] " />
     <div class="flex items-center justify-center pb-8 pt-[9px] md:py-8">
       <p class="text-[10px] font-normal  md:text-[12px]">
-      © Copyright 2024 Infinitee clicks technologies Pvt. Ltd.. All Rights Reserved.
+      © Copyright 2024 Infinitee SkilShala All Rights Reserved & Powered by Infinitee Clicks Technologies Pvt. Ltd
       </p>
     </div>
   </div>

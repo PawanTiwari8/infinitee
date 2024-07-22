@@ -3,9 +3,9 @@ import { CheckCircle2 } from "lucide-react";
 import { checklistItems } from "../constants";
 import bigimg from'../assets/profile-pictures/bigimg.jpg'
 
-const Workflow = () => {
+const Workflow = ({id}) => {
   return (
-    <div className="mt-20">
+    <div  id={id} className="mt-20">
       <h2 className="text-3xl sm:text-2xl lg:text-4xl text-center mt-6 tracking-wide">
         What we are going{" "}
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">

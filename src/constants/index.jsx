@@ -12,10 +12,11 @@ import user2 from "../assets/profile-pictures/user2.jpg";
 // import user5 from "../assets/profile-pictures/user5.jpg";
 // import user6 from "../assets/profile-pictures/user6.jpg";
 
+
 export const navItems = [
-  { label: "Home", href: "#Features" },
-  { label: "Courses", href: "#" },
-  { label: "Contact Us", href: "#" },
+  { label: "Home",id: 'heroSection', href: "#heroSection" },
+  { label: "Courses",id: 'featureSection', href: "#featureSection" },
+  { label: "Contact Us", id: 'pricing', href: "#pricing" },
   { label: "", href: "#" },
 ];
 

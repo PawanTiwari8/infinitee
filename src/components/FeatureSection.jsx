@@ -15,12 +15,12 @@ import image11 from "../assets/profile-pictures/meta.png"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
-const FeatureSection = () => {
+const FeatureSection = ({id}) => {
 
 useEffect(()=>{Aos.init({duration:2000,})},[])
 
   return(
-    <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+    <div  id={id} className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
       <div className="text-center">
         {/* <span className="bg-neutral-900 text-white rounded-full h-6 text-sm font-large px-2 py-1 uppercase">
           Courses

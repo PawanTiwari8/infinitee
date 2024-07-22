@@ -6,6 +6,14 @@ import logol from "../assets/profile-pictures/logol.png"
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
+
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
  
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
@@ -22,7 +30,11 @@ const Navbar = () => {
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
               <li key={index} className=" text-xl">
-                <a href={item.href}>{item.label}</a>
+                <a href={item.href}
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection(item.id);
+                }}>{item.label}</a>
               </li>
             ))}
           </ul>
@@ -48,7 +60,11 @@ const Navbar = () => {
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
-                  <a href={item.href}>{item.label}</a>
+                  <a href={item.href} 
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection(item.id);
+                  }}>{item.label}</a>
                 </li>
               ))}
             </ul>

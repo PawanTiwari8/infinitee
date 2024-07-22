@@ -11,14 +11,14 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className="max-w-7xl mx-auto pt-20 px-6">
-        <HeroSection />
-        <SkillCrouser/>
-        <FeatureSection />
-        <Workflow />
-        <Pricing />
-        <Testimonials />
-        <Footer />
+      <div className="max-w-7xl mx-auto pt-2 lg:pt-20 px-6">
+        <HeroSection id="heroSection" />
+        <SkillCrouser id="skillCrouser" />
+        <FeatureSection id="featureSection" />
+        <Workflow id="workflow" />
+        <Pricing id="pricing" />
+        <Testimonials id="testimonials" />
+        <Footer id="footer" />
       </div>
     </>
   );

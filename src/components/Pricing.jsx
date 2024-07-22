@@ -2,7 +2,7 @@ import { useRef,useState } from "react";
 import emailjs from '@emailjs/browser';
 import {checkValidate} from './Validate.jsx';
 
-const Pricing = () => {
+const Pricing = ({id}) => {
     const [errorMessage, seterrorMessage] = useState(null)
     const [successMessage, setSuccessMessage] = useState(null)
     const form = useRef();
@@ -35,7 +35,7 @@ const Pricing = () => {
     }
     };
   return (
-    <div className="">
+    <div  id={id} className="">
       <h2 className="text-3xl sm:text-2xl lg:text-4xl mt-10 lg:mt-20  tracking-wide text-center">
       Book your seats now
       </h2>

@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { testimonials } from "../constants";
 
-function Testimonials() {
+function Testimonials({id}) {
   const settings = {
     dots: true,
     infinite: true,
@@ -40,7 +40,7 @@ function Testimonials() {
     ]
   };
   return (
-    <div className='w-3/4  m-auto'>
+    <div  id={id} className='w-3/4  m-auto'>
        <h2 className="text-3xl sm:text-2xl lg:text-4xl text-center my-10 lg:my-20">
         What People are saying
       </h2>
