@@ -4,12 +4,13 @@ import { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import infinitee from '../assets/profile-pictures/infinitee.png'
 
+
 const HeroSection = () => {
 
   
 
   return (
-    <div className="flex flex-wrap justify-center">
+    <div className="flex flex-wrap border-b justify-center" >
     <div className="pt-12 mt-2 w-full lg:w-1/2">
     <div className="text-4xl sm:text-6xl lg:text-6xl pt-2 tracking-wide sm:block lg:block gap-4">
     <div className="pt-2 mt-2">Learning meets</div>

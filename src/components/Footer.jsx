@@ -1,11 +1,11 @@
-import { resourcesLinks, platformLinks, communityLinks } from "../constants";
+import logol from '../assets/profile-pictures/logol.png'
 const Footer = () => {
   return (
     <div class="mt-24 border-t-2  border-neutral-800 pt-9">
   <div class="mx-auto w-full max-w-[1166px] px-4 xl:px-0 ">
     <div class="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
       <div class="md:w-[316px]">
-      <img className="h-12 w-18 " src='https://iclickstech.com/wp-content/uploads/2021/04/IEC-Logo-9-1.png' alt="Logo" />
+      <img className="h-12 w-18 " src={logol} alt="Logo" />
         <p class="mt-[18px] text-[15px] font-normal ">We are central India’s fastest-growing Digital Marketing and Web solution Agency. Infinite-e Clicks Technologies Pvt. Ltd. is a one-stop solution provider for Website design & Development, Mobile App design & Development, Digital Marketing Services, Search Engine Optimization Services, Social Media Marketing & Content Marketing Services.</p>
         <div class="mt-[18px] flex gap-4">
           <a class="hover:scale-110" target="_blank"
@@ -103,9 +103,7 @@ const Footer = () => {
     <hr class="mt-[30px] " />
     <div class="flex items-center justify-center pb-8 pt-[9px] md:py-8">
       <p class="text-[10px] font-normal  md:text-[12px]">
-        © Copyright
-        2024
-        , All Rights Reserved by YOUR WEBSITES. PVT. LTD
+      © Copyright 2024 Infinitee clicks technologies Pvt. Ltd.. All Rights Reserved.
       </p>
     </div>
   </div>

@@ -41,7 +41,7 @@ function Testimonials() {
   };
   return (
     <div className='w-3/4  m-auto'>
-       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
+       <h2 className="text-3xl sm:text-2xl lg:text-4xl text-center my-10 lg:my-20">
         What People are saying
       </h2>
       <div className="mt-20">

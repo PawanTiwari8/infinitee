@@ -36,7 +36,7 @@ const Pricing = () => {
     };
   return (
     <div className="">
-      <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20  tracking-wide text-center">
+      <h2 className="text-3xl sm:text-2xl lg:text-4xl mt-10 lg:mt-20  tracking-wide text-center">
       Book your seats now
       </h2>
       <h2 className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text text-3xl sm:text-2xl lg:text-4xl m-2 lg:mt-8 text-center tracking-wide">

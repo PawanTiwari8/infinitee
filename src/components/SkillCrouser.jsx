@@ -13,7 +13,19 @@ import image11 from "../assets/profile-pictures/meta.png"
 
 const SkillCrouser = () => {
   return (
-    <div className="mt-20 flex overflow-hidden space-x-16 group  border-gray-500">
+    <div>
+    <div className="text-center">
+    {/* <span className="bg-neutral-900 text-white rounded-full h-6 text-sm font-large px-2 py-1 uppercase">
+      Courses
+    </span> */}
+    <h2 className="text-3xl sm:text-2xl lg:text-4xl mt-10 lg:mt-20 pt-10 tracking-wide">
+      Learnings from our{"  "}
+      <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+        digital Toolbox
+      </span>
+    </h2>
+  </div>
+    <div className="mt-10 flex overflow-hidden space-x-16 group  border-gray-500">
     <div className="flex space-x-8 animate-loop-scroll group-hover:paused">
     <img loading="lazy" src={image2} className="max-w-none h-20 w-20" alt="Imag0 w-20" />
     <img loading="lazy" src={image1} className="max-w-none h-20 w-20" alt="Image 1" />
@@ -41,7 +53,7 @@ const SkillCrouser = () => {
     <img loading="lazy" src={image11} className="max-w-none h-20 w-20" alt="Image 3" />
   </div>
  </div>
-    
+ </div>
   )
 }
 

@@ -25,7 +25,7 @@ useEffect(()=>{Aos.init({duration:2000,})},[])
         {/* <span className="bg-neutral-900 text-white rounded-full h-6 text-sm font-large px-2 py-1 uppercase">
           Courses
         </span> */}
-        <h2 className="text-4xl sm:text-4xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
+        <h2 className="text-3xl sm:text-2xl lg:text-4xl mt-10 lg:mt-20 tracking-wide">
           Programs offer by{"  "}
           <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
             SkillShala
